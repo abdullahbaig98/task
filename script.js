@@ -1,5 +1,6 @@
-const a=[1,2,3];
-
-for(var i=a.length;i>0;i--){
-console.log(a.pop());
+var a=[1,2,3];
+var newa=[];
+for(var i=0;i<3;i++){
+newa.push(a.pop());
 }
+console.log(newa);
